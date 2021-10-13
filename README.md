@@ -12,7 +12,7 @@ Vérifiez que vos ports 5500 ainsi que 3000 ne sont pas occupés. Le port 3000 n
 2. cd server
 3. npm i
 4. En utilisant phpMyAdmin (par exemple) créez une nouvelle base de données (mySql) vide
-5. (Optionel) Si vous souhaitez avoir des données déjà présente lors de votre première connexion, vous pouvez importer dans phpMyAdmin le fichier gpmn.sql présent dans server/config/gpmn.sql, de cette manière vous aurez un post par thématique ainsi que 3 utilisateurs dont 1 admin. Vous trouverez les information de connexion plus bas.
+5. (Optionel) Si vous souhaitez avoir des données déjà présentes lors de votre première connexion, vous pouvez importer dans phpMyAdmin le fichier gpmn.sql présent dans server/config/gpmn.sql, de cette manière vous aurez un post par thématique ainsi que 3 utilisateurs dont 1 admin. Vous trouverez les informations de connexion plus bas.
 6. Récupérez les informations de la BDD notamment le nom d'utilisateur, le mot de passe utilisateur, le nom de la BDD
 7. Modifiez le fichier config.json situé dans ThibautOrcel_7_23082021/server/config/config.json
 8. Remplacez your_db_username_here par le nom d'utilisateur
