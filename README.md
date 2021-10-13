@@ -1,4 +1,8 @@
 ## Projet 7 : Groupomania : Version Locale - OpenClassrooms - Développeur Web
+### Node.js / Express
+### React.js
+
+<hr/>
 
 ### Comment lancer le projet :
 Vérifiez que vos ports 5500 ainsi que 3000 ne sont pas occupés. Le port 3000 n'est pas essentiel, en revanche si le port 5500 n'est pas disponible le serveur ne pourra pas recevoir les requêtes du client.
