@@ -12,14 +12,15 @@ Vérifiez que vos ports 5500 ainsi que 3000 ne sont pas occupés. Le port 3000 n
 2. cd server
 3. npm i
 4. En utilisant phpMyAdmin (par exemple) créez une nouvelle base de données (mySql) vide
-5. Récupérez les informations de la BDD notamment le nom d'utilisateur, le mot de passe utilisateur, le nom de la BDD
-6. Modifiez le fichier config.json situé dans ThibautOrcel_7_23082021/server/config/config.json
-7. Remplacez your_db_username_here par le nom d'utilisateur
-8. Remplacez your_db_password_here par le mot de passe de l'utilisateur
-9. Remplacez your_db_name_here par le nom de votre base de données
-10. Dans le terminal entrez "npm start"
-11. Le serveur va créer automatiquement les tables dans votre base de données
-12. Passez à l'installation du côté client
+5. (Optionel) Si vous souhaitez avoir des données déjà présente lors de votre première connexion, vous pouvez importer dans phpMyAdmin le fichier gpmn.sql présent dans server/config/gpmn.sql, de cette manière vous aurez un post par thématique ainsi que 3 utilisateurs dont 1 admin. Vous trouverez les information de connexion plus bas.
+6. Récupérez les informations de la BDD notamment le nom d'utilisateur, le mot de passe utilisateur, le nom de la BDD
+7. Modifiez le fichier config.json situé dans ThibautOrcel_7_23082021/server/config/config.json
+8. Remplacez your_db_username_here par le nom d'utilisateur
+9. Remplacez your_db_password_here par le mot de passe de l'utilisateur
+10. Remplacez your_db_name_here par le nom de votre base de données
+11. Dans le terminal entrez "npm start"
+12. Le serveur va créer automatiquement les tables dans votre base de données si elles n'existent pas déjà
+13. Passez à l'installation du côté client
 
 ##### Côté client
 1. Ouvrez un deuxième terminal et entrez les commandes suivantes :
@@ -32,6 +33,8 @@ Vérifiez que vos ports 5500 ainsi que 3000 ne sont pas occupés. Le port 3000 n
 Vous venez tout juste de créer votre base de données. L'application ne possède donc pas encore d'utilisateurs ou de publications.
 Il ne vous reste donc plus qu'à vous rendre sur la page de création de compte puis de vous connecter. Vous pourrez alors commencer à publier du contenu ou bien mettre à jour les informations présentes sur votre page personnelle.
 
+
+##### Précision : Côté Serveur / 5. (Optionel)
 Néanmoins, si vous souhaitez avoir un peu de contenu lors de votre première connexion, vous pouvez importer dans votre base de données les data présentent dans le fichier gpmn.sql présent dans server/config/gpmn.sql. Par exemple : sur PHPmyAdmin il vous suffit de vous rendre dans votre BDD vide, cliquer sur l'onglet SQL et y coller le contenu du fichier gpmn.sql. De cette manière vous aurez un post par catégorie ainsi que trois utilisateurs, dont un admin.
 Afin de vous connecter sur le compte admin vous pouvez utiliser les identifiants suivants : 
 
