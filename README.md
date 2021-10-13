@@ -35,7 +35,7 @@ Il ne vous reste donc plus qu'à vous rendre sur la page de création de compte 
 
 
 ##### Précision : Côté Serveur / 5. (Optionel)
-Néanmoins, si vous souhaitez avoir un peu de contenu lors de votre première connexion, vous pouvez importer dans votre base de données les data présentent dans le fichier gpmn.sql présent dans server/config/gpmn.sql. Par exemple : sur PHPmyAdmin il vous suffit de vous rendre dans votre BDD vide, cliquer sur l'onglet SQL et y coller le contenu du fichier gpmn.sql. De cette manière vous aurez un post par catégorie ainsi que trois utilisateurs, dont un admin.
+Néanmoins, si vous souhaitez avoir un peu de contenu lors de votre première connexion, vous pouvez importer dans votre base de données les data présentent dans le fichier gpmn.sql présent dans server/config/gpmn.sql. Par exemple : sur phpMyAdmin il vous suffit de vous rendre dans votre BDD vide, cliquer sur l'onglet SQL et y coller le contenu du fichier gpmn.sql. De cette manière vous aurez un post par catégorie ainsi que trois utilisateurs, dont un admin.
 Afin de vous connecter sur le compte admin vous pouvez utiliser les identifiants suivants : 
 
 email : admin@gmania.fr<br/>
