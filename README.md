@@ -22,6 +22,7 @@ Vérifiez que vos ports 5500 ainsi que 3000 ne sont pas occupés. Le port 3000 n
 2. cd client
 3. npm i
 4. npm start
+5. Vous pouvez commencer à utililser l'appli sur votre navigateur
 
 ##### Côté web
 Vous venez tout juste de créer votre base de données. L'application ne possède donc pas encore d'utilisateurs ou de publications.
