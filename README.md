@@ -32,6 +32,12 @@ Vérifiez que vos ports 5500 ainsi que 3000 ne sont pas occupés. Le port 3000 n
 Vous venez tout juste de créer votre base de données. L'application ne possède donc pas encore d'utilisateurs ou de publications.
 Il ne vous reste donc plus qu'à vous rendre sur la page de création de compte puis de vous connecter. Vous pourrez alors commencer à publier du contenu ou bien mettre à jour les informations présentes sur votre page personnelle.
 
+Néanmoins, si vous souhaitez avoir un peu de contenu lors de votre première connexion, vous pouvez importer dans votre base de données les data présentent dans le fichier gpmn.sql présent dans server/config/gpmn.sql. Par exemple : sur PHPmyAdmin il vous suffit de vous rendre dans votre BDD vide, cliquer sur l'onglet SQL et y coller le contenu du fichier gpmn.sql. De cette manière vous aurez un post par catégorie ainsi que trois utilisateurs, dont un admin.
+Afin de vous connecter sur le compte admin vous pouvez utiliser les identifiants suivants : 
+
+email : admin@gmania.fr
+mdp: olém1po2lap1
+
 ### Comment attribuer les droits d'admin :
 1. Créez votre compte depuis l'application ( http://localhost:3000/register )
 2. Ouvrez votre base de données avec phpMyAdmin ou Workbench (par exemple)
