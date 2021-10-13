@@ -26,5 +26,7 @@
 <hr/>
 
 Ce repo est la version locale du réseau social Groupomania. Afin de retrouver la version en ligne, ainsi que mes repositories initiaux vous pouvez vous rendre sur les repo suivants : 
+
 backend : https://github.com/Tookai/heroku_backend
+
 frontend : https://github.com/Tookai/heroku_frontend
